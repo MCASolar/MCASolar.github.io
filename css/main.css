@@ -2,6 +2,18 @@ html{
 	background-color: green;
 	color:white;
 }
-body{
-	background-color: inherit;
+.navbar{
+	height: 8%;
+	margin-bottom:0px;
 }
+
+#tabcontainer{
+	height:92%;
+	background-color: blue;
+}
+#tabcontainer >div{
+	height:100%;
+}
+#home{
+	background-color:black;
+}`

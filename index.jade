@@ -4,22 +4,29 @@ html
 		link(rel='stylesheet',type='text/css',href='css/bootstrap.min.css')
 		link(rel='stylesheet',type='text/css',href='css/main.css')
 	body
-		nav.navbar.navbar-default
+		nav.navbar.navbar-default.transparent
 			div.container-fluid
 				div.navbar-header
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-					<i class="fa fa-bars"></i>
-					</button>
-					<a class="navbar-brand page-scroll" href="#page-top">
-					<i class="glyphicon glyphicon-home"></i> Hyperion
-					</a>
+					button(type="button",data-toggle="collapse",data-target=".navbar-main-collapse").navbar-toggle
+						<i class="fa fa-bars"></i>
+					a(href="#home").navbar-brand.page-scroll.internal Hyperion
+						//<i class="glyphicon glyphicon-home"></i>
 				div.collapse.navbar-collapse.navbar-right.navbar-main-collapse
 					ul.nav.navbar-nav
-						li.hidden
-							a(href="#page-top")
+						//li.hidden
+						//	a(href="#page-top")
 						li
-							a(href="#about") About Us
+							a(href="#about").internal About the Team
 						li
-							a(href="#contact") Contact Us
+							a(href="#contact").internal Contact Us
+		div#tabcontainer
+			div#home
+			div#about
+				p We real cool
+			div#contact
+				p Call us maybe?
 		script(src="js/jquery-1.11.0.js")
 		script(src="js/bootstrap.min.js")
+		script(src="js/nav.js")
+		script(src="js/three.min.js")
+		script(src="js/eos.js")
