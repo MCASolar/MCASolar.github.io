@@ -1,7 +1,8 @@
 html{
-	color:white;
+	background-color:black;
 }
 body{
+	background-color: inherit;
 	height:100%;
 }
 h1,h2,h3,h4,h5,h6{
@@ -11,9 +12,12 @@ h1,h2,h3,h4,h5,h6{
 	height: 8%;
 	margin-bottom:0px;
 }
-.navbar-default .navbar-brand{
+.navbar-transparent{
+	border-top:none;
+	border-bottom: 2px solid rgba(255,255,255,.5);/*white 50% transparent*/
+}
+.navbar-transparent .navbar-brand{
 	font-size:2em;
-	color:black;
 	font-family: 'Philosopher',sans-serif;
 }
 
