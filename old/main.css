@@ -1,0 +1,62 @@
+
+html,body{
+	width:100%;
+	margin:0;
+	padding: 0;
+}
+h1{
+	font-size:5em;
+	font-family: 'Orbitron', sans-serif;
+	padding-bottom:1em;
+}
+h2{
+	font-size:3em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.list{
+	font-size:2em;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1,h2{
+	margin:0;
+}
+section, header{
+	padding-top: 7em;
+	padding-bottom:16em;
+}
+
+.site_title{
+	font-size:12em;
+	font-style: italic;
+	font-family: 'Philosopher', sans-serif;
+	padding:.2em;
+}
+.subtitle{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:2.3em;
+}
+.center{
+	/*width:80%;*/
+	margin:auto;
+	text-align: center;
+}
+#intro{
+	background-color:#0713FC;
+}
+#about{
+	background-color:#07F647;
+	color:#ffffff;
+}
+#contact{
+	background-color: #929292;
+}
+#sun{
+	position:absolute;
+	top:1em;
+	right:1em;
+}
+#leaf{
+	position:absolute;
+	left:0em;
+	top:6em;
+}
