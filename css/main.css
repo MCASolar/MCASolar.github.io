@@ -29,9 +29,16 @@ h1,h2,h3,h4,h5,h6{
 #tabcontainer > div{
 	height:100%;
 }
+#tabcontainer > div p{
+	padding-top: 2vh;
+	padding-right: 20%;
+	padding-left: 20%;
+	font-size: 1.5em;
+
+}
 #home{
 	background-color:black;
 }
 .topHeading{
-	padding-top:2em;
+	padding-top:2vh;
 }
